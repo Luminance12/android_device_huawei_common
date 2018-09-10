@@ -56,10 +56,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-huawei
 # HIDL
 PRODUCT_COPY_FILES += \
     $(PLATFORM_PATH)/compatibility_matrix.xml:system/compatibility_matrix.xml
-
-PRODUCT_PACKAGES += \
-    android.hidl.base@1.0 \
-    android.hidl.manager@1.0
            
 # Input
 PRODUCT_COPY_FILES += \
